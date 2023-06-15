@@ -50,6 +50,10 @@ def main():
     st.title('Data Prediksi')
     st.write('Data yang diambil berasal dari Finance.yahoo.com')
     st.write('Data yang di uji colom volume')
+    st.write('Pekerjaan dari :')
+    st.write('200411100124 Tegar Fakhruddin (Ketua)')
+    st.write('200411100120 Moh. Sholeh Huddin (Anggota)')
+
     stock_symbol = st.text_input('Masukkan simbol saham (contoh: AMD):')
     start_date = st.text_input('Masukkan tanggal mulai (YYYY-MM-DD):')
     end_date = st.text_input('Masukkan tanggal berakhir (YYYY-MM-DD):')
